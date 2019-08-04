@@ -288,10 +288,11 @@ html {
 }
 
 .footer {
-  background-image: url(../img/index/footer-background-dull.jpg);
+  /*background-image: url(../img/index/footer-background-dull.jpg);*/
   background-size: cover;
   background-position: center;
   margin-top: 250px;
+  background-color: #191919;
 }
 
 .footer-image {
