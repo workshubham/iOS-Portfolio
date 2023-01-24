@@ -5,6 +5,8 @@ var moreScreensNonton = document.getElementById("more-screens-nonton");
 var moreScreensDialog 		= document.getElementById("more-screens-dialog");
 var moreScreensHalanx		= document.getElementById("more-screens-halanx");
 var moreScreensGamepaln 		= document.getElementById("more-screens-gameplan");
+var moreScreensAirtel         = document.getElementById("more-screens-airtel");
+var moreScreensPaytm         = document.getElementById("more-screens-paytm");
 var modalImg 			= document.getElementById("img01");
 
 moreScreensWatcho.onclick = function() {
@@ -30,6 +32,16 @@ moreScreensHalanx.onclick = function() {
 moreScreensGamepaln.onclick = function() {
 	modal.style.display = "block";
 	modalImg.src = "img/index/product-gameplan.png"
+}
+
+moreScreensAirtel.onclick = function() {
+    modal.style.display = "block";
+    modalImg.src = "img/index/product-airtel.png"
+}
+
+moreScreensPaytm.onclick = function() {
+    modal.style.display = "block";
+    modalImg.src = "img/index/product-paytm.png"
 }
 
 var span = document.getElementsByClassName("close")[0];
